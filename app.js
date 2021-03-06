@@ -9,17 +9,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-    // let q1=[];
-    // let ans1=a+b;
-    // let array1=(``)
-    
-    let array = [];
-        let sumanswer = a + b;
-        array[0] = sumanswer
-        let theResult = `The sum of ${a} and ${b} is ${sumanswer}.`
-        array[1] = theResult;
-        console.log(theResult);
-        return array; 
+    let ans1=a+b;
+    let string1=('The sum of '+a+' and '+b+' is '+ans1+'.');
+    let array1=[ans1,string1];
+    console.log(string1);
+    return array1;
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -37,7 +31,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+    
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -136,3 +130,4 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 // testMultiplyAnyArray(testDynamicArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
+
